@@ -22,11 +22,11 @@ Accuracy after tuning: 77.92%
 
 ## Performance Metrics
 
-![Logistic Regression Performance](img/metrices.png)
+![Logistic Regression Performance](imgs/metrices.png)
 
 ## Web Interface Screenshots
 
-![Screenshot 1](img/view.png)
+![Screenshot 1](imgs/Web Interface Screenshot.png)
 
 ## Usage
 
