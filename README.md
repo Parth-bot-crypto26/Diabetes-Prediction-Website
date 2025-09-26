@@ -1,5 +1,9 @@
 # Diabetes Prediction Project
 
+[Live Demo]
+[https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/](https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/)
+
+
 Diabetes is a chronic disease that affects millions of people worldwide. It is caused by the body's inability to produce or use insulin effectively, resulting in high blood sugar levels. Early detection and timely management of diabetes can prevent complications and improve the quality of life for patients. Machine learning algorithms can be used to predict the risk of developing diabetes.
 
 In this project, we aim to successfully predict whether a person has diabetes or not using logistic regression, decision tree, random forest classifier, and naive Bayes algorithms.
@@ -46,5 +50,4 @@ Feel free to explore the project further and make modifications as needed. Possi
 
 Let's collaborate to make this project even better!
 
-[Live Demo]
-[https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/](https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/)
+
