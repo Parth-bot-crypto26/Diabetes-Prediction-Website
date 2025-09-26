@@ -26,7 +26,7 @@ Accuracy after tuning: 77.92%
 
 ## Web Interface Screenshots
 
-![Screenshot 1](imgs/Web Interface Screenshot.png)
+![Screenshot 1](imgs/interface.png)
 
 ## Usage
 
