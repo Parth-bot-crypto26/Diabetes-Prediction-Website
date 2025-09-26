@@ -47,4 +47,4 @@ Feel free to explore the project further and make modifications as needed. Possi
 Let's collaborate to make this project even better!
 
 [Live Demo]
-https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/
+[https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/](https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/)
