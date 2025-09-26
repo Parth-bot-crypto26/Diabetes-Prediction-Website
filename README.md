@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Diabetes Prediction Project
 
-## Project info
+Diabetes is a chronic disease that affects millions of people worldwide. It is caused by the body's inability to produce or use insulin effectively, resulting in high blood sugar levels. Early detection and timely management of diabetes can prevent complications and improve the quality of life for patients. Machine learning algorithms can be used to predict the risk of developing diabetes.
 
-**URL**: https://lovable.dev/projects/bce70047-4396-444a-b930-8ffb62f2896b
+In this project, we aim to successfully predict whether a person has diabetes or not using logistic regression, decision tree, random forest classifier, and naive Bayes algorithms.
 
-## How can I edit this code?
+## Feature Set Exploration
 
-There are several ways of editing your application.
+1. **Pregnancies:** Number of times the person has been pregnant. Ranges from 0 to 17 pregnancies.
+2. **Glucose:** Glucose level in the person's blood, measured in mg/dL. Ranges from 0 to 199 mg/dL.
+3. **Blood Pressure:** Blood pressure measurement, consisting of systolic and diastolic blood pressure in mm Hg. Systolic ranges from 0 to 122 mm Hg, while diastolic ranges from 0 to 99 mm Hg.
+4. **Skin Thickness:** Thickness of the person's skin in mm, measured using a caliper. Ranges from 0 to 99 mm.
+5. **Insulin:** Insulin level in the person's blood, measured in μU/mL. Ranges from 0 to 846 μU/mL.
+6. **BMI:** Body mass index, calculated as weight in kilograms divided by height in meters squared. Ranges from 0 to 67.1 kg/m².
+7. **Diabetes Pedigree Function:** Estimate of the likelihood of developing diabetes based on family history. Dimensionless value ranging from 0.078 to 2.42.
+8. **Age:** Person's age in years. Ranges from 21 to 81 years.
+9. **Outcome:** Final result indicating whether the person has diabetes (1) or not (0).
 
-**Use Lovable**
+Initial accuracy: 69.09%
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bce70047-4396-444a-b930-8ffb62f2896b) and start prompting.
+Accuracy after tuning: 77.92%
 
-Changes made via Lovable will be committed automatically to this repo.
+## Performance Metrics
 
-**Use your preferred IDE**
+![Logistic Regression Performance](img/metrices.png)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Web Interface Screenshots
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Screenshot 1](img/view.png)
 
-Follow these steps:
+## Usage
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. **Training Models:** Use the provided dataset to train machine learning models using logistic regression, decision tree, random forest classifier, and naive Bayes algorithms.
+2. **Server:** Host the trained models on a server using `server.py`.
+3. **Frontend:** Develop a frontend interface (`index.html`) that takes input from the user and uses the machine learning models to predict and display the outcome.
+4. **Deployment:** Host the server on Render and the frontend on GitHub Pages. Add screenshots of the frontend, and provide a live link for exploration.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Exploration and Modification
 
-# Step 3: Install the necessary dependencies.
-npm i
+Feel free to explore the project further and make modifications as needed. Possible improvements include:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Experimenting with different machine learning algorithms.
+- Enhancing the frontend interface with additional features and better styling.
+- Adding more robust error handling and validation in the server code.
+- Incorporating feedback from users to improve prediction accuracy and user experience.
 
-**Edit a file directly in GitHub**
+Let's collaborate to make this project even better!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bce70047-4396-444a-b930-8ffb62f2896b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+[Live Demo]
+https://health-predict-main-gi01m51xc-parth-deshpandes-projects.vercel.app/
