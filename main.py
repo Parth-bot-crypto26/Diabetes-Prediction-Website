@@ -84,7 +84,7 @@ def predict():
         return jsonify({'error': 'Backend files not loaded. Check server logs.'}), 500
 
     try:
-        # Get data from the frontend's POST request (JSON body)
+        # Get data sent from the frontend's POST request (JSON body)
         user_data = request.get_json(force=True)
         
         # Convert all user input strings to floats for processing
